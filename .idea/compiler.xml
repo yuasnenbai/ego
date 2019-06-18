@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ego-api-gateway" />
+        <module name="ego-auth-common" />
+        <module name="ego-auth-service" />
+        <module name="ego-cart" />
+        <module name="ego-common" />
+        <module name="ego-config" />
+        <module name="ego-goods-web" />
+        <module name="ego-item-interface" />
+        <module name="ego-item-service" />
+        <module name="ego-order" />
+        <module name="ego-registry" />
+        <module name="ego-search" />
+        <module name="ego-sms" />
+        <module name="ego-upload" />
+        <module name="ego-user-interface" />
+        <module name="ego-user-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ego" options="-parameters" />
+      <module name="ego-api-gateway" options="-parameters" />
+      <module name="ego-auth-common" options="-parameters" />
+      <module name="ego-auth-service" options="-parameters" />
+      <module name="ego-cart" options="-parameters" />
+      <module name="ego-common" options="-parameters" />
+      <module name="ego-config" options="-parameters" />
+      <module name="ego-goods-web" options="-parameters" />
+      <module name="ego-item" options="-parameters" />
+      <module name="ego-item-interface" options="-parameters" />
+      <module name="ego-item-service" options="-parameters" />
+      <module name="ego-order" options="-parameters" />
+      <module name="ego-registry" options="-parameters" />
+      <module name="ego-search" options="-parameters" />
+      <module name="ego-sms" options="-parameters" />
+      <module name="ego-upload" options="-parameters" />
+      <module name="ego-user" options="-parameters" />
+      <module name="ego-user-interface" options="-parameters" />
+      <module name="ego-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

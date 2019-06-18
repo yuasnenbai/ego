@@ -1,0 +1,14 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.202.134
+    username: ego
+    password: ego
+    virtual-host: /ego
+ego:
+  sms:
+    accessKeyId: LTAIDl4tuTWys1aX
+    accessKeySecret: JrSddFcRSRx1cVv7wdzsns35P5yswX
